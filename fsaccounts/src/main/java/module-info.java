@@ -1,0 +1,3 @@
+module fsaccounts {
+    exports baseaccount;
+}

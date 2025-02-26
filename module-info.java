@@ -1,0 +1,4 @@
+module financialsurveyor {
+    requires fsaccounts;
+
+}
