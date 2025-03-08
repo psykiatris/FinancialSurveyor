@@ -1,14 +1,16 @@
 package baseaccount;
 
-public class CreditCard extends AccountInfo {
+
+public class CreditCard {
     public final int maxTerm = 24;   // range from 0-24 months
+    public static Account account;
 
+    public CreditCard(double prin, double rate) {
 
-    public CreditCard(double p, double r){
-
-        super(p, r);
-        this.name = "Credit Card";
-
+        account = new Account("Credit Card", prin, rate, maxTerm);
+        //System.out.println("Name: " + account.name());
 
     }
+
+
 }
